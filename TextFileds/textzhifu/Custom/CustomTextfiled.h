@@ -18,7 +18,7 @@
 @end
 
 @interface CustomTextfiled : UIView<UIKeyInput>
-@property (weak, nonatomic) id<CustomTextDelegate>delegate;
+@property (assign, nonatomic) id<CustomTextDelegate>delegate;
 @property(nonatomic, assign) NSInteger textFieldCount;
 @property (assign, nonatomic) CGFloat squareWidth;//正方形的大小
 @property (strong, nonatomic) NSMutableString *textStore;//保存密码的字符串
