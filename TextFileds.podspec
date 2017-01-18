@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  =  "TextFileds/**/*.{h,m}"
   
 
- #  s.public_header_files = "TextFileds/**/*.{h,m}"
+#  s.public_header_files = "TextFileds/CustomTextfiled.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
